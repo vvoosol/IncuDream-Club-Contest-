@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "count": 61,
+  "checks": [
+    "Four requested characters can be selected",
+    "Selecting Faraday loads his portrait, name, weapon and stats",
+    "Default bag is five columns by four rows",
+    "Every bag cell is square",
+    "Double-click automatically places nearby item into a free shape",
+    "Drag uses new five-column geometry",
+    "New right and bottom boundaries reject overflow",
+    "Invalid drop restores position in new grid",
+    "Future expansion API grows bag without moving items or duplicating one reward",
+    "Expanded bag retains square cells",
+    "Double-click leaves item on ground when bag is full",
+    "ruler executes and deals damage (2484)",
+    "steel_ruler executes and deals damage (4340)",
+    "ball executes and deals damage (320)",
+    "iron_ball executes and deals damage (388)",
+    "chalk executes and deals damage (4903)",
+    "chalk_machine executes and deals damage (2236)",
+    "ammonia executes and deals damage (2574)",
+    "chem_warfare executes and deals damage (1992)",
+    "notebook executes and deals damage (3939)",
+    "exam_cheatsheet executes and deals damage (5796)",
+    "flask executes and deals damage (1140)",
+    "flammable_material executes and deals damage (5191)",
+    "apple executes and deals damage (2208)",
+    "gravity executes and deals damage (7728)",
+    "laser executes and deals damage (1371)",
+    "prism executes and deals damage (3395)",
+    "current executes and deals damage (412)",
+    "lightning executes and deals damage (918)",
+    "magnet executes and deals damage (1253)",
+    "magnetic_storm executes and deals damage (10231)",
+    "pea executes and deals damage (1205)",
+    "segregation_law executes and deals damage (1734)",
+    "planting executes and deals damage (696)",
+    "pure_cross executes and deals damage (4508)",
+    "default: all 6 available base skills upgrade through Lv.5 and evolve with required passive",
+    "newton: all 8 available base skills upgrade through Lv.5 and evolve with required passive",
+    "faraday: all 8 available base skills upgrade through Lv.5 and evolve with required passive",
+    "mendel: all 8 available base skills upgrade through Lv.5 and evolve with required passive",
+    "Mendel guarantees repeat choice while it can still grow",
+    "Newton movement and directional modifiers use original formula",
+    "Faraday repeated displacement actually triggers induction damage",
+    "All six original passives affect their actual combat stats",
+    "Six weapon slots prevent extra new weapons",
+    "Other scientists exclusive weapons never enter the research pool",
+    "Fully completed research still offers three valid fallback rewards",
+    "Exam cheatsheet awards original 30% bonus science only for its own kills",
+    "default: full combat loop with AI, loot and research produces kills without invalid world positions",
+    "newton: full combat loop with AI, loot and research produces kills without invalid world positions",
+    "faraday: full combat loop with AI, loot and research produces kills without invalid world positions",
+    "mendel: full combat loop with AI, loot and research produces kills without invalid world positions",
+    "Chest health uses normal-monster ×2/×10 and E interaction is removed",
+    "Regular automatic attack breaks chest and drops rewards only once",
+    "High-health chest contains the stronger reward pool",
+    "Stair countdown shows remaining time and resets when leaving",
+    "Three-second stay enters next floor and preserves character, gear and research",
+    "Mobile keeps 9:16 and square inventory cells",
+    "Touch drag uses square five-column bag correctly",
+    "New research opens three functional choices and pauses combat",
+    "Research applies and resumes or handles queued levels",
+    "No uncaught browser runtime exceptions"
+  ],
+  "skillResults": [
+    {
+      "id": "ruler",
+      "damage": 2484,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "steel_ruler",
+      "damage": 4340,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "ball",
+      "damage": 320,
+      "plants": 0,
+      "maxProjectiles": 6
+    },
+    {
+      "id": "iron_ball",
+      "damage": 388,
+      "plants": 0,
+      "maxProjectiles": 8
+    },
+    {
+      "id": "chalk",
+      "damage": 4903,
+      "plants": 0,
+      "maxProjectiles": 1
+    },
+    {
+      "id": "chalk_machine",
+      "damage": 2236,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "ammonia",
+      "damage": 2574,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "chem_warfare",
+      "damage": 1992,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "notebook",
+      "damage": 3939,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "exam_cheatsheet",
+      "damage": 5796,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "flask",
+      "damage": 1140,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "flammable_material",
+      "damage": 5191,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "apple",
+      "damage": 2208,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "gravity",
+      "damage": 7728,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "laser",
+      "damage": 1371,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "prism",
+      "damage": 3395,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "current",
+      "damage": 412,
+      "plants": 0,
+      "maxProjectiles": 1
+    },
+    {
+      "id": "lightning",
+      "damage": 918,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "magnet",
+      "damage": 1253,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "magnetic_storm",
+      "damage": 10231,
+      "plants": 0,
+      "maxProjectiles": 0
+    },
+    {
+      "id": "pea",
+      "damage": 1205,
+      "plants": 0,
+      "maxProjectiles": 13
+    },
+    {
+      "id": "segregation_law",
+      "damage": 1734,
+      "plants": 0,
+      "maxProjectiles": 18
+    },
+    {
+      "id": "planting",
+      "damage": 696,
+      "plants": 3,
+      "maxProjectiles": 4
+    },
+    {
+      "id": "pure_cross",
+      "damage": 4508,
+      "plants": 4,
+      "maxProjectiles": 23
+    }
+  ],
+  "errors": [],
+  "date": "2026-11-13T07:12:13.250Z"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ruler",
+    "damage": 2484,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "steel_ruler",
+    "damage": 4340,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "ball",
+    "damage": 320,
+    "plants": 0,
+    "maxProjectiles": 6
+  },
+  {
+    "id": "iron_ball",
+    "damage": 388,
+    "plants": 0,
+    "maxProjectiles": 8
+  },
+  {
+    "id": "chalk",
+    "damage": 4903,
+    "plants": 0,
+    "maxProjectiles": 1
+  },
+  {
+    "id": "chalk_machine",
+    "damage": 2236,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "ammonia",
+    "damage": 2574,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "chem_warfare",
+    "damage": 1992,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "notebook",
+    "damage": 3939,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "exam_cheatsheet",
+    "damage": 5796,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "flask",
+    "damage": 1140,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "flammable_material",
+    "damage": 5191,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "apple",
+    "damage": 2208,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "gravity",
+    "damage": 7728,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "laser",
+    "damage": 1371,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "prism",
+    "damage": 3395,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "current",
+    "damage": 412,
+    "plants": 0,
+    "maxProjectiles": 1
+  },
+  {
+    "id": "lightning",
+    "damage": 918,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "magnet",
+    "damage": 1253,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "magnetic_storm",
+    "damage": 10231,
+    "plants": 0,
+    "maxProjectiles": 0
+  },
+  {
+    "id": "pea",
+    "damage": 1205,
+    "plants": 0,
+    "maxProjectiles": 13
+  },
+  {
+    "id": "segregation_law",
+    "damage": 1734,
+    "plants": 0,
+    "maxProjectiles": 18
+  },
+  {
+    "id": "planting",
+    "damage": 696,
+    "plants": 3,
+    "maxProjectiles": 4
+  },
+  {
+    "id": "pure_cross",
+    "damage": 4508,
+    "plants": 4,
+    "maxProjectiles": 23
+  }
+]

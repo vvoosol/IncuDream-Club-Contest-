@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>과학자 RPG · 지하 연구소</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main id="game" aria-label="과학자 RPG">
+  <header><img id="portrait" src="assets/characters/default.png" alt="정도안"><div class="vitals"><div><b id="level">Lv.1 정도안</b><span id="floor">지하 연구소 B1F</span></div><div class="bar hp"><i id="hpfill"></i><strong id="hp">100 / 100</strong></div><div class="bar xp"><i id="xpfill"></i></div><div class="header-progress"><span id="science">과학력 0 / 20</span><span id="killcount">처치 0</span></div></div><button id="pause" aria-label="일시정지" aria-pressed="false" title="일시정지 · 스킬 확인과 가방 정리">⏸</button></header>
+  <section id="field">
+    <canvas id="world" width="540" height="416" aria-label="던전 전투 화면"></canvas>
+    <button id="map" aria-label="전체 지도"><canvas id="minimap" width="104" height="78"></canvas><span>MAP ⤢</span></button>
+    <div id="objective">동쪽 연구실을 지나 하향 계단을 찾으세요</div><div id="toast" role="status"></div>
+    <div id="stick"><i></i></div><div class="field-bottom"><span id="room">격리실 A</span><span id="timer">00:00</span></div>
+    <div id="stairs-status" hidden role="status"></div>
+    <section id="pause-panel" class="field-panel" hidden aria-label="일시정지와 현재 연구"><div class="sheet-heading"><div><small>EXPERIMENT PAUSED</small><h2>연구 일시정지</h2></div><span id="pause-level"></span></div><p class="pause-hint">전투가 멈췄습니다. 아래 가방을 자유롭게 정리하세요.</p><div id="skill-list"></div><div class="pause-footer">오른쪽 위 ▶ 버튼으로 탐험을 계속합니다.</div></section>
+    <section id="map-panel" class="field-panel" hidden aria-label="전체 지도"><div class="sheet-heading"><h2>연구소 B1F</h2><button id="closemap" aria-label="지도 닫기">✕</button></div><canvas class="bigmap" id="bigmap" width="448" height="250"></canvas><div class="legend">노란 점: 현재 위치 · 밝은 구역: 탐험 완료<br>지도 확인 중에도 전투는 계속됩니다.</div></section>
+  </section>
+  <section id="inventory" class="panel"><div class="panel-head"><h2>▣ 연구 가방</h2><span id="bagcount">0 / 20</span></div><div class="bag-layout"><aside class="empty-equipment" aria-hidden="true"></aside><div id="bag" aria-label="5열 4행 연구 가방"></div></div><div class="stats"><span id="damageStat">공격 32</span><span id="speedStat">이동 136</span><span class="cyan" id="scienceBonus">과학력 +30%</span></div><div id="researches">아이템을 가방으로 드래그해 배치하세요</div></section>
+  <section id="nearby" class="panel"><div class="panel-head"><h2>⌖ 주변 아이템</h2><span>드래그 / 더블클릭 획득</span></div><div id="loot"></div><div id="dropzone">가방 아이템을 여기로 끌어 내려놓기</div></section>
+  <div id="modal" class="modal"></div>
+  <div id="item-tooltip" role="tooltip" hidden></div><div id="drag-ghost" hidden></div>
+</main>
+<script src="source-reference/original-data.js"></script><script src="original-combat.js"></script><script src="game.js"></script><script src="skills.js"></script><script src="inventory.js"></script>
+</body></html>
